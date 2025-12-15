@@ -50,3 +50,8 @@ Model selection was guided by validation performance and learning curve behavior
 A key challenge in this project was resisting the urge to overengineer the model in pursuit of optimal performance. Given the variability and scale of the target variable, it quickly became clear that pursuing the “perfect” model was unrealistic. Progress instead came from testing reasonable choices, observing their behavior, and accepting that improvement in machine learning is incremental rather than exact. 
 
 Implementing the full training pipeline from scratch also exposed practical details often hidden by high-level libraries. Writing the optimization and preprocessing logic directly in NumPy and Pandas made errors, scaling issues, and convergence behavior immediately visible, leading to a more concrete understanding of how implementation choices affect model behavior.
+
+## 5 References
+- [https://www.baeldung.com/cs/ml-underfitting-overfitting](https://www.baeldung.com/cs/ml-underfitting-overfitting)
+- [https://codingnomads.com/validation-learning-curve-overfitting-and-underfitting](https://codingnomads.com/validation-learning-curve-overfitting-and-underfitting)
+- [https://www.geeksforgeeks.org/machine-learning/implementation-of-ridge-regression-from-scratch-using-python/](https://www.geeksforgeeks.org/machine-learning/implementation-of-ridge-regression-from-scratch-using-python/)
